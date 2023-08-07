@@ -124,7 +124,7 @@ def generate1():
             bytearray(encodedImage) + b'\r\n')
 @app.route("/")
 def index():
-     return render_template ("index1.php")
+     return render_template ("index.html")
 
 @app.route("/video_feed")
 def video_feed():
